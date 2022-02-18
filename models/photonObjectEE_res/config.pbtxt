@@ -1,4 +1,4 @@
-name: "ObjEB_res2"
+name: "photonObjectEE_res"
 platform: "pytorch_libtorch"
 max_batch_size: 0
 input [
@@ -18,12 +18,27 @@ input [
   dims: [-1]
 },
 {
-  name: "graph_x__3"
+  name: "xES__3"
+  data_type: TYPE_FP32
+  dims: [-1, 4]
+},
+{
+  name: "fES__4"
+  data_type: TYPE_INT64
+  dims: [-1]
+},
+{
+  name: "graph_x__5"
   data_type: TYPE_FP32
   dims: [-1, 2]
 },
 {
-  name: "xECAL_batch__4"
+  name: "xECAL_batch__6"
+  data_type: TYPE_INT64
+  dims: [-1]
+},
+{
+  name: "xES_batch__7"
   data_type: TYPE_INT64
   dims: [-1]
 }]

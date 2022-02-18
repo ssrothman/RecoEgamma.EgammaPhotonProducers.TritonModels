@@ -1,4 +1,4 @@
-name: "ObjEB2"
+name: "photonObjectEB"
 platform: "pytorch_libtorch"
 max_batch_size: 0
 input [

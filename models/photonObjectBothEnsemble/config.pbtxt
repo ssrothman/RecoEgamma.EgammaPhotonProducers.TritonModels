@@ -51,10 +51,11 @@ output [
 {
   name: "sigma"
   data_type: TYPE_FP32
-  dims: [-1, 5]
+  dims: [-1, 6]
 }]
 ensemble_scheduling{
   step [
+  {
     model_name: "photonObjectBoth"
     model_version: -1
     input_map {

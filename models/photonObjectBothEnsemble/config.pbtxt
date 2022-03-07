@@ -96,7 +96,7 @@ ensemble_scheduling{
     }
   },
   {
-    model_name: "photonObjectBoth"
+    model_name: "photonObjectBoth_res"
     model_version: -1
     input_map {
       key: "xECAL__0"
